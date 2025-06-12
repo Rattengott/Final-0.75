@@ -22,6 +22,7 @@ script = ExtResource("1_dx6nr")
 [node name="detection_area" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+scale = Vector2(1.74984, 1.74984)
 shape = SubResource("CircleShape2D_cr5ae")
 debug_color = Color(0.55319, 0.399861, 1, 0.42)
 
