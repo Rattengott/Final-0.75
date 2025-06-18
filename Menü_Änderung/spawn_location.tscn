@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bv7i8ioudkmwf"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_0sq2t"]
+
+[node name="SpawnLocation" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("ImageTexture_0sq2t")

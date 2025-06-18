@@ -6,7 +6,7 @@ var speed = 80
 var health = 100
 var player_inattack_zone = false
 var damage = 30
-
+@onready var target_node = get_node("..")
 
 
 
@@ -41,8 +41,12 @@ func update_health():
 		
 	if health <= 0:
 		self.queue_free()
-	
-	
+		#call_deferred("free")
+		#if is_instance_valid(enemy):
+			#self.queue_free()
+			#target_node.blib()
+		
+
 	if health >= 100:
 		healthbar.visible = false
 	else:

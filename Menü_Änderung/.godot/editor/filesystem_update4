@@ -8,3 +8,4 @@ res://menu.tscn
 res://options.tscn
 res://map.gd
 res://enemy.gd
+res://spawn_location.tscn

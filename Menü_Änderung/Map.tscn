@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://c718iwdrpb0g8"]
+[gd_scene load_steps=38 format=3 uid="uid://c718iwdrpb0g8"]
 
 [ext_resource type="Script" path="res://map.gd" id="1_3vi7k"]
 [ext_resource type="PackedScene" uid="uid://clj5w1tr6pu77" path="res://player.tscn" id="2_3h1ab"]
@@ -19,6 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://sd3ia7d2jqd5" path="res://enemy.tscn" id="12_pswp7"]
 [ext_resource type="Script" path="res://event_bus.gd" id="13_mterd"]
 [ext_resource type="Texture2D" uid="uid://cxclgm6hpi5q8" path="res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/assets_spritesheet_v2_free.png" id="14_a1xxq"]
+[ext_resource type="PackedScene" uid="uid://bv7i8ioudkmwf" path="res://spawn_location.tscn" id="20_68wj2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tma0k"]
 texture = ExtResource("2_ju384")
@@ -2731,3 +2732,21 @@ script = ExtResource("13_mterd")
 
 [node name="Enemy2" parent="." instance=ExtResource("12_pswp7")]
 position = Vector2(376, 0)
+
+[node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 5.429
+autostart = true
+
+[node name="Marker2D" type="Marker2D" parent="." groups=["spawn"]]
+position = Vector2(2030, -871)
+
+[node name="Marker2D2" type="Marker2D" parent="." groups=["spawn"]]
+position = Vector2(-1400, -880)
+
+[node name="Marker2D3" type="Marker2D" parent="." groups=["spawn"]]
+position = Vector2(171, 1172)
+
+[node name="SpawnLocation" parent="." instance=ExtResource("20_68wj2")]
+position = Vector2(364, -117)
+
+[connection signal="timeout" from="SpawnTimer" to="." method="_on_spawn_timer_timeout"]

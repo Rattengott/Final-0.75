@@ -28,6 +28,7 @@ window/size/mode=3
 
 Player=""
 enemy=""
+spawn=""
 
 [input]
 
