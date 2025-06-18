@@ -1,9 +1,9 @@
-res://Map.tscn
+res://enemy.tscn
 res://Textures/new_animation_node_blend_space_2d.tres
 res://Textures/player.tres
+res://Map.tscn
 res://player.tscn
-res://enemy.tscn
 res://menu.tscn
 res://options.tscn
-res://player.gd
 res://enemy.gd
+res://player.gd

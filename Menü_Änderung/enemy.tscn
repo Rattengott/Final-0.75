@@ -13,13 +13,15 @@ height = 200.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_d2m2w"]
 radius = 118.609
 
-[node name="Enemy" type="CharacterBody2D"]
+[node name="Enemy" type="CharacterBody2D" groups=["enemy"]]
 scale = Vector2(0.539696, 0.539696)
 collision_layer = 4
-collision_mask = 6
+collision_mask = 2
 script = ExtResource("1_dx6nr")
 
 [node name="detection_area" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
 scale = Vector2(1.74984, 1.74984)
@@ -48,9 +50,9 @@ position = Vector2(-3, 5)
 shape = SubResource("CapsuleShape2D_k04tv")
 debug_color = Color(0.252864, 0.635088, 0, 0.42)
 
-[node name="enemy_hitbox" type="Area2D" parent="."]
-collision_layer = 5
-collision_mask = 5
+[node name="enemy_hitbox" type="Area2D" parent="." groups=["enemy"]]
+collision_layer = 4
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="enemy_hitbox"]
 position = Vector2(-2, 6)
