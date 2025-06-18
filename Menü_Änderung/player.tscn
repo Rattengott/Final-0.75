@@ -13,7 +13,7 @@ radius = 18.0
 height = 64.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wvn8q"]
-radius = 24.0
+radius = 28.0
 height = 86.0
 
 [sub_resource type="Animation" id="Animation_dw050"]
@@ -329,8 +329,7 @@ nodes/TimeScale/position = Vector2(0, 60)
 node_connections = [&"TimeScale", 0, &"PlayerStates", &"output", 0, &"TimeScale"]
 
 [node name="Player" type="CharacterBody2D"]
-collision_layer = 3
-collision_mask = 3
+collision_layer = 2
 script = ExtResource("1_kpjcp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

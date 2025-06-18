@@ -51,6 +51,8 @@ func enemy():
 
 func _on_hit_area_body_entered(body: Node2D) -> void:
 	print ("player is taking dmg")
+	
+	
 
 	
 
@@ -65,7 +67,8 @@ func _OnHit(damage):
 	health -= 30
 
 func _ready():
-	
+	self.add_to_group("enemy")
+	print(self.get_groups())
 	
 	EventBus.player_hit_enemy.connect(Callable(self, "_on_player_hit_enemy"))
 	

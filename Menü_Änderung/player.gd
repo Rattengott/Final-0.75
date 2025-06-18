@@ -1,8 +1,8 @@
 class_name Player
 extends CharacterBody2D
 
-var enemy_inattack_range = false
-var enemy_attack_cooldown = true
+@export var enemy_inattack_range = false
+@export var enemy_attack_cooldown = true
 var speed: float = 450.0
 var health = 100
 var player_alive = true
@@ -11,7 +11,7 @@ var attacking = false
 var hit = false
 var pausing = false
 var input_vector = Vector2.ZERO
-var invincible = false
+@export var invincible = false
 var dashing = false
 var effect_timer : float = 0
 var effect_delay : float = 0.1
@@ -29,6 +29,8 @@ func _ready():
 	#await get_tree().create_timer(1).timeout
 	#print("Weiter geht's nach der Wartezeit!")
 	pausing = false
+	set_collision_mask_value(3, true)
+	self.add_to_group("player")
 
 func _physics_process(delta: float) -> void:
 	var input_vector = Vector2.ZERO
@@ -89,7 +91,11 @@ func player():
 	pass
 
 func _on_player_hitbox_body_entered(body: Node2D) -> void:
-	if body.has_method("enemy"):
+	#if body.has_method("enemy"):
+	print(body.get_groups())
+	print(body)
+	if body is enemy:
+		print("ka")
 		enemy_inattack_range = true
 
 func enemy_attack():

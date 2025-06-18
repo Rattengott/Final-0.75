@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 Global="*res://global.gd"
 EventBus="*res://event_bus.gd"
 
+[display]
+
+window/size/mode=3
+
 [input]
 
 up={

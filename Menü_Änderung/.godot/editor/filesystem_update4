@@ -5,3 +5,5 @@ res://player.tscn
 res://enemy.tscn
 res://menu.tscn
 res://options.tscn
+res://player.gd
+res://enemy.gd
