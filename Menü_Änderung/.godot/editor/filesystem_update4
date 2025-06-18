@@ -6,6 +6,5 @@ res://Map.tscn
 res://enemy.tscn
 res://menu.tscn
 res://options.tscn
-res://area_2d.gd
-res://area_2d_attack_hitbox.gd
+res://map.gd
 res://enemy.gd

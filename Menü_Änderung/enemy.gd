@@ -14,6 +14,8 @@ func _physics_process(delta):
 	#deal_with_damage()
 	update_health()
 	
+	
+	
 	if player_chase:
 		position += (player.position - position)/speed
 
@@ -37,7 +39,8 @@ func update_health():
 	
 	
 		
-	
+	if health <= 0:
+		self.queue_free()
 	
 	
 	if health >= 100:
@@ -53,8 +56,9 @@ func _on_hit_area_body_entered(body: Node2D) -> void:
 	print ("player is taking dmg")
 	
 	
-
-	
+func blub():
+	print("Treffer")
+	health -= 30
 
 func _on_area_2d_attack_hitbox_body_entered(body: Node2D) -> void:
 	print ("dmg 20")

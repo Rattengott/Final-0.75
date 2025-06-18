@@ -21,7 +21,7 @@ var effect_delay : float = 0.1
 #@onready get_node("AnimatedSprite2D/Area2D/CollisionShape2D").disabled = true
 @onready var timer: Timer =$Timer
 @onready var collision_shape = $CollisionShape2d
-
+@onready var target_node = get_node("..")
 
 
 func _ready():
@@ -97,7 +97,12 @@ func _on_player_hitbox_body_entered(body: Node2D) -> void:
 	if body.has_method("enemy"):
 		print("ka")
 		enemy_inattack_range = true
-
+		print("karsten")
+		target_node.test()
+		
+		
+		
+		
 func enemy_attack():
 	if enemy_inattack_range and enemy_attack_cooldown == true and invincible == false: 
 		health -= 30
@@ -108,7 +113,7 @@ func enemy_attack():
 func _on_player_hitbox_body_exited(body: Node2D) -> void:
 	if body.has_method("enemy"):
 		enemy_inattack_range = false
-	
+		print("Karsten2")
 		
 
 		
@@ -135,6 +140,11 @@ func _process(_delta):
 		attacking = true
 		timer.start()
 		pausing = true
+		
+	
+	
+	
+	
 	else:
 		return
 		
