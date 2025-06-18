@@ -91,10 +91,10 @@ func player():
 	pass
 
 func _on_player_hitbox_body_entered(body: Node2D) -> void:
-	#if body.has_method("enemy"):
+	print("bin")#if body.has_method("enemy"):
 	print(body.get_groups())
 	print(body)
-	if body.is_in_group("Player"):
+	if body.has_method("enemy"):
 		print("ka")
 		enemy_inattack_range = true
 
@@ -106,7 +106,7 @@ func enemy_attack():
 		print(health)
 
 func _on_player_hitbox_body_exited(body: Node2D) -> void:
-	if body.is_in_group("Player"):
+	if body.has_method("enemy"):
 		enemy_inattack_range = false
 	
 		
@@ -173,7 +173,7 @@ func _on_attacking_state_timeout() -> void:
 	
 	
 func _on_area_2d_attack_hitbox_body_entered(body: Node2D) -> void:
-		
+	if body.has_method("OnHit"):
 		#area.OnHit(damage_player)
 		print("i got hit")
 
