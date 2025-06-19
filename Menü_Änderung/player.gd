@@ -98,7 +98,8 @@ func _on_player_hitbox_body_entered(body: Node2D) -> void:
 		print("ka")
 		enemy_inattack_range = true
 		print("karsten")
-		target_node.test()
+		body.blub()
+		#target_node.test()
 		
 		
 		
