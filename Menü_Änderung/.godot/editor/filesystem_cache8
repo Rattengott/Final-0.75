@@ -1,58 +1,59 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750260423
-area_2d.gd::GDScript::-1::1750257695::0::1::::<>Area2D<>::
-area_2d_attack_hitbox.gd::GDScript::-1::1750257219::0::1::::Playerhit<>Area2D<>::
-button.gd::GDScript::-1::1749746629::0::1::::<>Button<>::
-Character.png.png::CompressedTexture2D::116877888077491724::1749746629::1750254976::1::::<><>::
-Ch_Attack.png::CompressedTexture2D::4684202858517956578::1749746629::1750254976::1::::<><>::
-Ch_Spritesheet.png::CompressedTexture2D::8905160656356857327::1749746629::1750254976::1::::<><>::
-Ch_WalkUp.png::CompressedTexture2D::3025441441667833642::1749746629::1750254976::1::::<><>::
-enemy.gd::GDScript::-1::1750260320::0::1::::enemy<>CharacterBody2D<>::
-enemy.tscn::PackedScene::1271306730501963420::1750260333::0::1::::<><>::res://enemy.gd<>uid://bxm6q5earggnj::::res://Textures/asparagus_PNG25.png
-event_bus.gd::GDScript::-1::1749746629::0::1::::<>Node<>::
-Fritten.jpg::CompressedTexture2D::1985195408777600110::1749746629::1750254977::1::::<><>::
-global.gd::GDScript::-1::1749746629::0::1::::<>Node<>::
-icon.svg::CompressedTexture2D::8863616835616102651::1749746629::1750254976::1::::<><>::
-Imagesforsheet.png::CompressedTexture2D::7370648317627481609::1749746629::1750254976::1::::<><>::
-map.gd::GDScript::-1::1750260157::0::1::::<>Node<>::
-Map.tscn::PackedScene::7074577293461957161::1750260333::0::1::::<><>::res://map.gd<>uid://clj5w1tr6pu77::::res://player.tscn<>uid://btjgf8y87vlw8::::res://Textures/TX Plant.png<>uid://bedwoymsdg2e3::::res://Textures/TX Player.png<>uid://cm4o7bh30gcyl::::res://Textures/TX Tileset Wall.png<>uid://w5ypfd6x6q45::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/decorations.png<>uid://bng3wdlgco6tr::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/dirtpath_tiles.png<>uid://cdbru2eui00fr::::res://Textures/TX Tileset Stone Ground.png<>uid://fxr0qrogo2kc::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/fence_tiles.png<>uid://bhwwb3e70ir4r::::res://Textures/TX Tileset Grass.png<>uid://bduul1mtyil32::::res://Textures/TX Struct.png<>uid://d35ikjhosf4m8::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/terrain_tiles_v2.png<>uid://raws4odarn3x::::res://Textures/TX Shadow.png<>uid://cmwy02noxyrio::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/water_and_island_tiles_v2.png<>uid://eir1c6qbmy37::::res://Textures/TX Shadow Plant.png<>uid://7hisqgtggw35::::res://Textures/TX Props.png<>uid://sd3ia7d2jqd5::::res://enemy.tscn<>res://event_bus.gd<>uid://cxclgm6hpi5q8::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/assets_spritesheet_v2_free.png
-menu.gd::GDScript::-1::1749746629::0::1::::<>Control<>::
-menu.tscn::PackedScene::5791867084213705086::1750260333::0::1::::<><>::res://menu.gd<>uid://kx3tjas3uxad::::res://Textures/Titel2.png
-options.gd::GDScript::-1::1749746629::0::1::::<>Control<>::
-options.tscn::PackedScene::8716114061234534718::1750260333::0::1::::<><>::res://options.gd<>uid://kx3tjas3uxad::::res://Textures/Titel2.png
-player.gd::GDScript::-1::1750260333::0::1::::Player<>CharacterBody2D<>::
-player.tscn::PackedScene::5565360240212828024::1750260333::0::1::::<><>::res://player.gd<>uid://dy4yxvmkvkqy6::::res://Ch_Spritesheet.png<>uid://qduc2fm3nv6k::::res://Textures/player.tres<>res://area_2d.gd<>res://player_animation.gd
-player_animation.gd::GDScript::-1::1749746629::0::1::::<>Node2D<>::
-sdf0.png::CompressedTexture2D::8582999475533242416::1749746629::1750254976::1::::<><>::
-sdg - Kopie.png::CompressedTexture2D::4479666150969816658::1749746629::1750254976::1::::<><>::
-sdg.png::CompressedTexture2D::7467641314991052879::1749746629::1750254976::1::::<><>::
-slime.png::CompressedTexture2D::2834712093901412512::1749746629::1750254976::1::::<><>::
-Slimey.png::CompressedTexture2D::5802351199207099986::1749746629::1750254976::1::::<><>::
-world.gd::GDScript::-1::1749746629::0::1::::<>Node2D<>::
-world.tscn::PackedScene::5645918882110414558::1749746629::0::1::::<><>::
-::res://Textures/::1750260320
-asparagus_PNG25.png::CompressedTexture2D::4027449001797484827::1749746629::1750254976::1::::<><>::
-new_animation_node_blend_space_2d.tres::AnimationNodeBlendSpace2D::4371996745106936796::1750260320::0::1::::<><>::
-player.png::CompressedTexture2D::1836141982074229218::1749746629::1750254976::1::::<><>::
-player.tres::AnimationNodeStateMachine::1130433969351491300::1750260320::0::1::::<><>::uid://b3j3fawwhtyfk::::res://Textures/new_animation_node_blend_space_2d.tres
-Titel2.png::CompressedTexture2D::751103604171571711::1749746629::1750254976::1::::<><>::
-TitelBild.png::CompressedTexture2D::3615481855194600932::1749746629::1750254976::1::::<><>::
-TX Plant.png::CompressedTexture2D::3738963115417208961::1749746629::1750254976::1::::<><>::
-TX Player.png::CompressedTexture2D::2674731246383110960::1749746629::1750254976::1::::<><>::
-TX Props.png::CompressedTexture2D::2261012371441856670::1749746629::1750254976::1::::<><>::
-TX Shadow Plant.png::CompressedTexture2D::298349169767605608::1749746629::1750254976::1::::<><>::
-TX Shadow.png::CompressedTexture2D::1194579804919107307::1749746629::1750254976::1::::<><>::
-TX Struct.png::CompressedTexture2D::2639510138317106847::1749746629::1750254976::1::::<><>::
-TX Tileset Grass.png::CompressedTexture2D::2924497937704108671::1749746629::1750254976::1::::<><>::
-TX Tileset Stone Ground.png::CompressedTexture2D::4986541606039569255::1749746629::1750254976::1::::<><>::
-TX Tileset Wall.png::CompressedTexture2D::5675881693856831683::1749746629::1750254976::1::::<><>::
-::res://Textures/basic_tileset_and_assets_32x32_standard_v2/::1749746629
-::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/::1750254976
-assets_spritesheet_v2_free.png::CompressedTexture2D::6391992806760508297::1749746629::1750254976::1::::<><>::
-decorations.png::CompressedTexture2D::1607570156085110080::1749746629::1750254976::1::::<><>::
-dirtpath_tiles.png::CompressedTexture2D::3313001455614020387::1749746629::1750254976::1::::<><>::
-fence_tiles.png::CompressedTexture2D::399502607538162194::1749746629::1750254976::1::::<><>::
-ground_decorations.png::CompressedTexture2D::2671497890315511897::1749746629::1750254976::1::::<><>::
-license.txt::TextFile::-1::1749746629::0::1::::<><>::
-terrain_tiles_v2.png::CompressedTexture2D::9186985083631346549::1749746629::1750254976::1::::<><>::
-water_and_island_tiles_v2.png::CompressedTexture2D::5662027093186629522::1749746629::1750254976::1::::<><>::
+::res://::1750319780
+area_2d.gd::GDScript::-1::1750319766::0::1::::<>Area2D<>::
+area_2d_attack_hitbox.gd::GDScript::-1::1750319766::0::1::::Playerhit<>Area2D<>::
+button.gd::GDScript::-1::1749718642::0::1::::<>Button<>::
+Character.png.png::CompressedTexture2D::116877888077491724::1749718641::1750319784::1::::<><>::
+Ch_Attack.png::CompressedTexture2D::4684202858517956578::1749718641::1750319784::1::::<><>::
+Ch_Spritesheet.png::CompressedTexture2D::8905160656356857327::1749718641::1750319784::1::::<><>::
+Ch_WalkUp.png::CompressedTexture2D::3025441441667833642::1749718641::1750319784::1::::<><>::
+enemy.gd::GDScript::-1::1750319766::0::1::::enemy<>CharacterBody2D<>::
+enemy.tscn::PackedScene::1271306730501963420::1750319766::0::1::::<><>::res://enemy.gd<>uid://bxm6q5earggnj::::res://Textures/asparagus_PNG25.png
+event_bus.gd::GDScript::-1::1749718642::0::1::::<>Node<>::
+Fritten.jpg::CompressedTexture2D::1985195408777600110::1749718641::1750319785::1::::<><>::
+global.gd::GDScript::-1::1749718642::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::8863616835616102651::1749718642::1750319784::1::::<><>::
+Imagesforsheet.png::CompressedTexture2D::7370648317627481609::1749718641::1750319784::1::::<><>::
+map.gd::GDScript::-1::1750319766::0::1::::<>Node<>::
+Map.tscn::PackedScene::7074577293461957161::1750319766::0::1::::<><>::res://map.gd<>uid://clj5w1tr6pu77::::res://player.tscn<>uid://btjgf8y87vlw8::::res://Textures/TX Plant.png<>uid://bedwoymsdg2e3::::res://Textures/TX Player.png<>uid://cm4o7bh30gcyl::::res://Textures/TX Tileset Wall.png<>uid://w5ypfd6x6q45::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/decorations.png<>uid://bng3wdlgco6tr::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/dirtpath_tiles.png<>uid://cdbru2eui00fr::::res://Textures/TX Tileset Stone Ground.png<>uid://fxr0qrogo2kc::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/fence_tiles.png<>uid://bhwwb3e70ir4r::::res://Textures/TX Tileset Grass.png<>uid://bduul1mtyil32::::res://Textures/TX Struct.png<>uid://d35ikjhosf4m8::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/terrain_tiles_v2.png<>uid://raws4odarn3x::::res://Textures/TX Shadow.png<>uid://cmwy02noxyrio::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/water_and_island_tiles_v2.png<>uid://eir1c6qbmy37::::res://Textures/TX Shadow Plant.png<>uid://7hisqgtggw35::::res://Textures/TX Props.png<>uid://sd3ia7d2jqd5::::res://enemy.tscn<>res://event_bus.gd<>uid://cxclgm6hpi5q8::::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/assets_spritesheet_v2_free.png<>uid://bv7i8ioudkmwf::::res://spawn_location.tscn
+menu.gd::GDScript::-1::1749718642::0::1::::<>Control<>::
+menu.tscn::PackedScene::5791867084213705086::1750242977::0::1::::<><>::res://menu.gd<>uid://kx3tjas3uxad::::res://Textures/Titel2.png
+options.gd::GDScript::-1::1749718642::0::1::::<>Control<>::
+options.tscn::PackedScene::8716114061234534718::1750242977::0::1::::<><>::res://options.gd<>uid://kx3tjas3uxad::::res://Textures/Titel2.png
+player.gd::GDScript::-1::1750319766::0::1::::Player<>CharacterBody2D<>::
+player.tscn::PackedScene::5565360240212828024::1750319766::0::1::::<><>::res://player.gd<>uid://dy4yxvmkvkqy6::::res://Ch_Spritesheet.png<>uid://qduc2fm3nv6k::::res://Textures/player.tres<>res://area_2d.gd<>res://player_animation.gd
+player_animation.gd::GDScript::-1::1749718642::0::1::::<>Node2D<>::
+sdf0.png::CompressedTexture2D::8582999475533242416::1749718642::1750319784::1::::<><>::
+sdg - Kopie.png::CompressedTexture2D::4479666150969816658::1749718642::1750319784::1::::<><>::
+sdg.png::CompressedTexture2D::7467641314991052879::1749718642::1750319784::1::::<><>::
+slime.png::CompressedTexture2D::2834712093901412512::1749718642::1750319784::1::::<><>::
+Slimey.png::CompressedTexture2D::5802351199207099986::1749718641::1750319784::1::::<><>::
+spawn_location.tscn::PackedScene::3926991598089875361::1750319766::0::1::::<><>::
+world.gd::GDScript::-1::1749718642::0::1::::<>Node2D<>::
+world.tscn::PackedScene::5645918882110414558::1749718642::0::1::::<><>::
+::res://Textures/::1750241360
+asparagus_PNG25.png::CompressedTexture2D::4027449001797484827::1749718641::1750319785::1::::<><>::
+new_animation_node_blend_space_2d.tres::AnimationNodeBlendSpace2D::4371996745106936796::1750241360::0::1::::<><>::
+player.png::CompressedTexture2D::1836141982074229218::1749718642::1750319785::1::::<><>::
+player.tres::AnimationNodeStateMachine::1130433969351491300::1750241360::0::1::::<><>::uid://b3j3fawwhtyfk::::res://Textures/new_animation_node_blend_space_2d.tres
+Titel2.png::CompressedTexture2D::751103604171571711::1749718641::1750319785::1::::<><>::
+TitelBild.png::CompressedTexture2D::3615481855194600932::1749718641::1750319785::1::::<><>::
+TX Plant.png::CompressedTexture2D::3738963115417208961::1749718641::1750319785::1::::<><>::
+TX Player.png::CompressedTexture2D::2674731246383110960::1749718641::1750319785::1::::<><>::
+TX Props.png::CompressedTexture2D::2261012371441856670::1749718641::1750319785::1::::<><>::
+TX Shadow Plant.png::CompressedTexture2D::298349169767605608::1749718641::1750319785::1::::<><>::
+TX Shadow.png::CompressedTexture2D::1194579804919107307::1749718641::1750319785::1::::<><>::
+TX Struct.png::CompressedTexture2D::2639510138317106847::1749718641::1750319785::1::::<><>::
+TX Tileset Grass.png::CompressedTexture2D::2924497937704108671::1749718641::1750319785::1::::<><>::
+TX Tileset Stone Ground.png::CompressedTexture2D::4986541606039569255::1749718641::1750319784::1::::<><>::
+TX Tileset Wall.png::CompressedTexture2D::5675881693856831683::1749718641::1750319784::1::::<><>::
+::res://Textures/basic_tileset_and_assets_32x32_standard_v2/::1749718641
+::res://Textures/basic_tileset_and_assets_32x32_standard_v2/basic_tileset_and_assets_standard/::1750241351
+assets_spritesheet_v2_free.png::CompressedTexture2D::6391992806760508297::1749718641::1750319785::1::::<><>::
+decorations.png::CompressedTexture2D::1607570156085110080::1749718642::1750319785::1::::<><>::
+dirtpath_tiles.png::CompressedTexture2D::3313001455614020387::1749718642::1750319785::1::::<><>::
+fence_tiles.png::CompressedTexture2D::399502607538162194::1749718642::1750319785::1::::<><>::
+ground_decorations.png::CompressedTexture2D::2671497890315511897::1749718642::1750319785::1::::<><>::
+license.txt::TextFile::-1::1749718642::0::1::::<><>::
+terrain_tiles_v2.png::CompressedTexture2D::9186985083631346549::1749718642::1750319785::1::::<><>::
+water_and_island_tiles_v2.png::CompressedTexture2D::5662027093186629522::1749718642::1750319785::1::::<><>::
